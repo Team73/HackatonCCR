@@ -1,9 +1,6 @@
 ﻿<Properties StartupConfiguration="{74F5F6DA-32DF-42B0-A963-534C0247BCC9}|Default">
   <MonoDevelop.Ide.ItemProperties.HackatonCCR PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HackatonCCR/Migrations/20200613202447_Initial.cs">
-    <Files>
-      <File FileName="HackatonCCR/Migrations/20200613202447_Initial.cs" Line="10" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">

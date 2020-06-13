@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WjfhTzeORPn9obP4d0tQOWd20XwIfzQo9Tie9O6MSM6no90wj4OUlslmkwZLqkwsRcQZEEJhr9Eh3pNsHGqGAQ==",
+  "dgSpecHash": "QRz788H7Lbl6/nq1HHO/tQhX1V3Oc/G2TzVf5V6FFM3YPfECs9uKT1fafy/vmyj5DolaO+tKHHmiPoYFrwIWNA==",
   "success": true,
-  "projectFilePath": "/Users/devreis/Projects/HackatonCCR/HackatonCCR/HackatonCCR.csproj",
+  "projectFilePath": "/Users/devreis/Projects/HackatonCCR/backend/HackatonCCR/HackatonCCR.csproj",
   "expectedPackageFiles": [
     "/Users/devreis/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/devreis/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

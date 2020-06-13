@@ -1194,17 +1194,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/devreis/Projects/HackatonCCR/HackatonCCR/HackatonCCR.csproj",
+      "projectUniqueName": "/Users/devreis/Projects/HackatonCCR/backend/HackatonCCR/HackatonCCR.csproj",
       "projectName": "HackatonCCR",
-      "projectPath": "/Users/devreis/Projects/HackatonCCR/HackatonCCR/HackatonCCR.csproj",
+      "projectPath": "/Users/devreis/Projects/HackatonCCR/backend/HackatonCCR/HackatonCCR.csproj",
       "packagesPath": "/Users/devreis/.nuget/packages/",
-      "outputPath": "/Users/devreis/Projects/HackatonCCR/HackatonCCR/obj/",
+      "outputPath": "/Users/devreis/Projects/HackatonCCR/backend/HackatonCCR/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/devreis/.nuget/NuGet/NuGet.Config"
+        "/Users/devreis/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
