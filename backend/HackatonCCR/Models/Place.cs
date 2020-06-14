@@ -6,6 +6,7 @@ namespace HackatonCCR.Models
     {
         [Key]
         public int Id { get; set; }
+
         [Required(ErrorMessage = "Value cant be empty")]
         [MinLength(3)]
         public string Name { get; set; }

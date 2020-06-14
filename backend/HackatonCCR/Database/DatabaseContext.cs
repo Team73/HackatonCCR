@@ -1,5 +1,4 @@
-﻿using System;
-using HackatonCCR.Models;
+﻿using HackatonCCR.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace HackatonCCR.Database

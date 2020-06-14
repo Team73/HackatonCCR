@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HackatonCCR.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20200613202447_Initial")]
+    [Migration("20200613234928_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

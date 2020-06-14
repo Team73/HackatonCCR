@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using HackatonCCR.Database;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +20,7 @@ namespace HackatonCCR
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<DatabaseContext, DatabaseContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,11 +34,6 @@ namespace HackatonCCR
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
-            app.UseCors(builder => builder
-                .AllowAnyHeader()
-                .AllowAnyMethod()
-                .AllowAnyOrigin());
 
             app.UseAuthorization();
 
