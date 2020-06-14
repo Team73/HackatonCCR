@@ -28,6 +28,18 @@ namespace HackatonCCR.Migrations
                     b.Property<double>("AveragePrice")
                         .HasColumnType("REAL");
 
+                    b.Property<bool>("HasFood")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("HasHospital")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("HasShower")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("HasSleep")
+                        .HasColumnType("INTEGER");
+
                     b.Property<double>("Latitude")
                         .HasColumnType("REAL");
 
@@ -46,15 +58,6 @@ namespace HackatonCCR.Migrations
 
                     b.Property<int>("Rating")
                         .HasColumnType("INTEGER");
-
-                    b.Property<byte[]>("TStamp")
-                        .IsConcurrencyToken()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("BLOB");
-
-                    b.Property<string>("TypeOfService")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

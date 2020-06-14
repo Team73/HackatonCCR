@@ -21,8 +21,10 @@ namespace HackatonCCR.Migrations
                     LongitudeDelta = table.Column<double>(nullable: false),
                     Rating = table.Column<int>(nullable: false),
                     AveragePrice = table.Column<double>(nullable: false),
-                    TypeOfService = table.Column<string>(nullable: false),
-                    TStamp = table.Column<byte[]>(rowVersion: true, nullable: true)
+                    HasSleep = table.Column<bool>(nullable: false),
+                    HasFood = table.Column<bool>(nullable: false),
+                    HasShower = table.Column<bool>(nullable: false),
+                    HasHospital = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
                 {
