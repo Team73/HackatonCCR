@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace HackatonCCR.Models
 {
@@ -32,9 +35,15 @@ namespace HackatonCCR.Models
         public double AveragePrice { get; set; }
 
         [Required(ErrorMessage = "Value cant be empty")]
-        public string TypeOfService { get; set; }
+        public bool HasSleep { get; set; }
 
-        [Timestamp]
-        public byte[] TStamp { get; set; }
+        [Required(ErrorMessage = "Value cant be empty")]
+        public bool HasFood { get; set; }
+
+        [Required(ErrorMessage = "Value cant be empty")]
+        public bool HasShower { get; set; }
+
+        [Required(ErrorMessage = "Value cant be empty")]
+        public bool HasHospital { get; set; }
     }
 }

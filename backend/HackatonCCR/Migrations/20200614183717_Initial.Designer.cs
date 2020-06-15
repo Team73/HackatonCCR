@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HackatonCCR.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20200613234928_Initial")]
+    [Migration("20200614183717_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,6 +30,18 @@ namespace HackatonCCR.Migrations
                     b.Property<double>("AveragePrice")
                         .HasColumnType("REAL");
 
+                    b.Property<bool>("HasFood")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("HasHospital")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("HasShower")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("HasSleep")
+                        .HasColumnType("INTEGER");
+
                     b.Property<double>("Latitude")
                         .HasColumnType("REAL");
 
@@ -48,15 +60,6 @@ namespace HackatonCCR.Migrations
 
                     b.Property<int>("Rating")
                         .HasColumnType("INTEGER");
-
-                    b.Property<byte[]>("TStamp")
-                        .IsConcurrencyToken()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("BLOB");
-
-                    b.Property<string>("TypeOfService")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
