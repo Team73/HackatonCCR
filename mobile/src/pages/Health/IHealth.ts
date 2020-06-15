@@ -1,7 +1,9 @@
 export interface IHistory {
-  id: number;
+  id?: number;
   image: { uri: string };
   title: string;
-  paragraph: string;
+  doctor: string;
+  address: string;
   date: Date;
+  isScheduled: boolean;
 }
