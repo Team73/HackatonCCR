@@ -20,7 +20,7 @@ const Map: React.FC = () => {
   const [destination, setDestination] = useState<IRegion>();
   const [originText, setOriginText] = useState('');
   const [destinationText, setDestinationText] = useState('');
-  const GOOGLE_MAPS_APIKEY = 'AIzaSyDZ1GcP-SAfxYoub4hJase8jK5xtBruujs';
+  const GOOGLE_MAPS_APIKEY = '';
 
   const requestLocationPermission = async () => {
     try {
